@@ -124,3 +124,8 @@ select Posts.Content, Users.Email From Users JOIN Posts on Users.UserID=Posts.Us
 ```sql
 select Users.Email From Users LEFT JOIN Posts on Users.UserID where Posts.PostID is NULL;
 ```
+### Links to all the files:
+- [MessageData](https://github.com/dbdesign-students-spring2024/4-sql-crud-NOLIMIT0410/blob/main/data/MessageData.csv)
+- [StoryData](https://github.com/dbdesign-students-spring2024/4-sql-crud-NOLIMIT0410/blob/main/data/StoryData.csv)
+- [UsersDatya](https://github.com/dbdesign-students-spring2024/4-sql-crud-NOLIMIT0410/blob/main/data/UsersData.csv)
+- [restaurants](https://github.com/dbdesign-students-spring2024/4-sql-crud-NOLIMIT0410/blob/main/data/restaurants.csv)
